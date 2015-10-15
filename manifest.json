@@ -1,6 +1,6 @@
 {
-  "manifest_version": 2,
-  "name": "fuck tMall",
+  "manifest_version": 3,
+  "name": "getTmallCoupon",
   "description": "抢天猫优惠券",
   "version": "1.0.1",
   "browser_action": {
@@ -11,9 +11,6 @@
     {
       "matches": [
         "http://www.tmall.com/wow/*"
-      ],
-      "css": [
-        "css/index.css"
       ],
       "js": [
         "js/zepto.js",
